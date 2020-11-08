@@ -1,22 +1,9 @@
 {
   "variables": {
-      "var_vsphere_vcenter":            "{{env `VSPHEREVCENTER`}}",
-      "var_vsphere_username":           "{{env `VSPHEREUSER`}}",
-      "var_vsphere_password":           "{{env `VSPHEREPASS`}}",
-      "var_vsphere_datacenter":         "{{env `VSPHEREDATACENTER`}}",
-      "var_vsphere_cluster":            "{{env `VSPHERECLUSTER`}}",
-      "var_vsphere_datastore":          "{{env `VSPHEREDATASTORE`}}",
-      "var_vsphere_network":            "{{env `VSPHERENETWORK`}}",
       "var_vsphere_folder":             "Templates/CentOS",
-      "var_vsphere_iso_datastore":      "{{env `VSPHEREISODS`}}",
       "var_iso_path":                   "images/os/centos/7",
       "var_iso_file":                   "CentOS-7-x86_64-DVD-2003.iso",
-      "var_guest_username":             "{{env `LINUXUSER`}}",
-      "var_guest_password":             "{{env `LINUXPASS`}}",
-      "var_build_version":              "{{env `BUILDVERSION`}}",
-      "var_build_repo":                 "{{env `BUILDREPO`}}",
-      "var_build_branch":               "{{env `BUILDBRANCH`}}",
-      "var_http_server":                "{{env `HTTPSERVER`}}"
+
     },
   
     "builders": [
