@@ -2,8 +2,7 @@
   "variables": {
       "var_vsphere_folder":             "Templates/CentOS",
       "var_iso_path":                   "images/os/centos/7",
-      "var_iso_file":                   "CentOS-7-x86_64-DVD-2003.iso",
-
+      "var_iso_file":                   "CentOS-7-x86_64-DVD-2003.iso"
     },
   
     "builders": [
