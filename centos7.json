@@ -64,7 +64,7 @@
                                   "./scripts/centos/99-cleanup.sh"
         ]
       }
-    ]
+    ],
     "post-processors": [
       {
           "type": "manifest",
